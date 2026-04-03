@@ -57,7 +57,7 @@ def my_tool(
 
 ## Code Standards
 
-- Always apply appropriate type annotations to all function arguments and return values.
+- Always apply appropriate types annotations to all function arguments and return values.
 
 ## Notes
 
