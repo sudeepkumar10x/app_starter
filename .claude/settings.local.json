@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(uv pip:*)"
+      "Bash(uv pip:*)",
+      "Bash(uv run:*)",
+      "Bash(UV_LINK_MODE=copy uv run pytest -v)",
+      "Bash(.venv/Scripts/pytest -v)",
+      "Bash(.venv/Scripts/python -c ':*)"
     ]
   }
 }
